@@ -1,0 +1,9 @@
+{
+  "name":"convertify",
+  "version":"1.0.0",
+  "private":true,
+  "type":"module",
+  "scripts":{"dev":"concurrently \"npm run server\" \"npm run client\"","client":"vite --host 0.0.0.0","server":"node server/index.js","build":"vite build","start":"node server/index.js"},
+  "dependencies":{"@vitejs/plugin-react":"latest","vite":"latest","react":"latest","react-dom":"latest","lucide-react":"latest","express":"latest","cors":"latest","papaparse":"latest","xlsx":"latest","concurrently":"latest"},
+  "devDependencies":{}
+}
